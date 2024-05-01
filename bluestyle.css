@@ -6,3 +6,32 @@ h1 {
     color: blue;
     margin-left: 25px;
 }
+
+.title {
+    color: blue;
+    font-size: 4vh;
+    text-align: center;
+    position: absolute;
+    top: 2vh;
+}
+
+.start-button {
+    color: blue;
+    background-color: white;
+    font-size: 4vh;
+    text-align: center;
+    position: absolute;
+    right: 0vw;
+    left: 0vw;
+    margin: auto;
+    width: 20vw;
+}
+
+.start-button:hover {
+    color: white;
+    background-color: blue;
+}
+
+#button-return {
+    display: none;
+}
